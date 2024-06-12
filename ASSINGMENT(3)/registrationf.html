@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <form>
+    <h1>Registratiopn Form</h1>
+   
+    <h4>Enter your details below</h4>
+    <ul>
+        <li>
+        <input type="email" id="email" name="email" placeholder="your_email@gmail.com"  required>
+        </li><br>
+        <li>
+        <input type="password" id="pwd" name="pwd"  placeholder="password"  required>
+        </li>
+    </ul>
+    <h4>!type a complex passworhd with 8-20 characters</h4>
+    <ul>
+        <li>
+         <input type="number" id="number" name="number" placeholder="+91 phone number" required>
+        </li>
+    </ul>
+    <hr>
+   <lable for="profession"> Enter your profession:</lable>
+    <ul>
+        <li>
+            <input type="radio" name="profession" id="profession" value="Student"> Student
+            <input type="radio" name="profession" id="profession" value="Teacher"> teacher
+            <input type="radio" name="profession" id="profession" value="Developer"> Developer
+        </li>
+    </ul>
+    <lable for="stage">choose the stage if you are (student)</lable>
+    <select id="stage" name="stage">
+        <option value="first">First Primary</option>
+        <option value="second">Second Primary</option>
+        <option value="third">Third Primary</option>
+        <option value="fourth">Fourth Primary</option>
+        <option value="Five">Five Primary</option>
+    </select>
+    <hr>
+    <ul>
+        <li>
+    <lable for="dob">Enter your Birth date </lable>
+    <input type="date" id="dob" name="dob" required>
+</li>
+</ul>
+<hr>
+<ul>
+    <li>
+      <textarea rows="1" cols="25" placeholder="Any notes"></textarea>
+    </li>
+</ul>
+<hr>
+<input type="submit" value="submit">
+<input type="reset"  value="Reset">
+<hr>
+</form>
+</body>
+</html>
